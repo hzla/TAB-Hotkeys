@@ -7,7 +7,6 @@ REPLACE THE COLOR ABOVE WITH COLOR IN ALERT BOX
 */
 
 /*
-
 POSITION 1
 replace "q" with desired hotkey
 */
@@ -58,6 +57,22 @@ return
 
 /*
 POSITION 4
+replace "r" with desired hotkey
+*/
+
+r::
+PixelGetColor, col1, 615, 977
+ifEqual col1, %commandCenterColor%, {
+	MouseGetPos x, y
+	MouseMove, 1445, 920, 0
+	Sleep, 1
+	Click
+	MouseMove, %x%, %y%, 0
+}
+return
+
+/*
+POSITION 5
 replace "a" with desired hotkey
 */
 
@@ -73,7 +88,7 @@ ifEqual col1, %commandCenterColor%, {
 return
 
 /*
-POSITION 5
+POSITION 6
 replace "s" with desired hotkey
 */
 
@@ -89,7 +104,7 @@ ifEqual col1, %commandCenterColor%, {
 return
 
 /*
-POSITION 6
+POSITION 7
 replace "d" with desired hotkey
 */
 
@@ -105,7 +120,25 @@ ifEqual col1, %commandCenterColor%, {
 return
 
 /*
-POSITION 7
+POSITION 8
+replace "f" with desired hotkey
+*/
+
+f::
+PixelGetColor, col1, 615, 977
+ifEqual col1, %commandCenterColor%, {
+	MouseGetPos x, y
+	MouseMove, 1445, 980, 0
+	Sleep, 1
+	Click
+	MouseMove, %x%, %y%, 0
+}
+return
+
+
+
+/*
+POSITION 9
 replace "z" with desired hotkey
 */
 
@@ -121,7 +154,7 @@ ifEqual col1, %commandCenterColor%, {
 return
 
 /*
-POSITION 8
+POSITION 10
 replace "x" with desired hotkey
 */
 
@@ -138,7 +171,7 @@ return
 
 
 /*
-POSITION 9
+POSITION 11
 replace "c" with desired hotkey
 */
 
@@ -147,6 +180,22 @@ PixelGetColor, col1, 615, 977
 ifEqual col1, %commandCenterColor%, {
 	MouseGetPos x, y
 	MouseMove, 1385, 1040, 0
+	Sleep, 1
+	Click
+	MouseMove, %x%, %y%, 0
+}
+return
+
+/*
+POSITION 12
+replace "v" with desired hotkey
+*/
+
+v::
+PixelGetColor, col1, 615, 977
+ifEqual col1, %commandCenterColor%, {
+	MouseGetPos x, y
+	MouseMove, 1445, 1040, 0
 	Sleep, 1
 	Click
 	MouseMove, %x%, %y%, 0
