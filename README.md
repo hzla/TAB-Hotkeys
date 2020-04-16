@@ -5,7 +5,7 @@ Currently working for 1080 x 1920 in borderless windowed full sreen mode.
 
 Run with AutoHotKey, can be downloaded here https://www.autohotkey.com/
 
-Default hotkeys are "q,w,e,a,s,d,z,x,c" for positions 1-9 on the command center. 
+Default hotkeys are "q,w,e,r,a,s,d,f,z,x,c,v" for positions 1-12 on the command center. 
 
 Refer to https://www.autohotkey.com/docs/Hotkeys.htm if you want to change the default hot keys used.
 
